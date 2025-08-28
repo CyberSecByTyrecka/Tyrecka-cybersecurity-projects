@@ -1,0 +1,19 @@
+# 🔍 Vulnerability Scanning & Reporting
+
+## 📌 Project Overview
+This project demonstrates **network vulnerability scanning** using Nmap & Nessus.  
+The goal is to identify vulnerabilities before attackers can exploit them.
+
+---
+
+## 🛠️ Tools Used
+- Nmap – Network discovery & port scanning  
+- Nessus – Vulnerability assessment  
+- Python/Bash – Automation & report formatting  
+
+---
+
+## ⚡ How It Works
+1. Run Nmap scan:
+```bash
+nmap -sV -oN sample_scan.nmap 192.168.1.0/24
